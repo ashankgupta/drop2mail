@@ -1,21 +1,21 @@
-# Drop2Mail 📩
+# Drop2Mail 
 
 **Tagline:** *Drag. Drop. Send.*
 
 Drop2Mail is a productivity tool designed for teachers and administrators.  
 It allows you to **drag & drop teachers or groups into a compose zone** and send emails instantly, without the hassle of searching for contacts.
 
-## 🚀 Features
-- 🔐 Authentication for Admins & Teachers (JWT-based).
-- 📦 Collections Management: Create, update, and manage groups of students and teachers.
-- 🎓 Students & Teachers: Easily fetch and attach via APIs.
-- 🖱️ Drag & Drop to Email: Drop any collection to auto-select recipients.
-- 📧 Email Sending: Send emails to all students & teachers in a collection.
-- 📝 Email Logs: Every sent mail is logged with subject, message, and recipients.
-- 📊 Expandable Recipients View: Dropdown to preview names & emails before sending.
+## Features
+- Authentication for Admins & Teachers (JWT-based).
+- Collections Management: Create, update, and manage groups of students and teachers.
+- Students & Teachers: Easily fetch and attach via APIs.
+- Drag & Drop to Email: Drop any collection to auto-select recipients.
+- Email Sending: Send emails to all students & teachers in a collection.
+- Email Logs: Every sent mail is logged with subject, message, and recipients.
+- Expandable Recipients View: Dropdown to preview names & emails before sending.
 
 
-## 🏗️ Tech Stack
+## Tech Stack
 🔹 Frontend
 - Next.js + TypeScript
 - Tailwind CSS (modern responsive UI)
@@ -27,7 +27,7 @@ It allows you to **drag & drop teachers or groups into a compose zone** and send
 - Nodemailer (email service)
 - JWT Authentication
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 ├── backend
 │ ├── config/ # Database connection
@@ -50,14 +50,14 @@ It allows you to **drag & drop teachers or groups into a compose zone** and send
 ├── README.md # Project documentation
 ```
 
-## 🎯 Usage
+## Usage
 - Login as Teacher/Admin → Token stored in localStorage.
 - View Collections → Fetched via /collection/my.
 - Drag & Drop → Drag a collection card into the email drop zone.
 - Preview Recipients → Expand dropdown to view all student & teacher emails.
 - Send Email → Fill subject & message → Click Send.
 
-## ⚙️ Setup
+## Setup
 #### Backend
 ```
 cd backend
@@ -71,12 +71,12 @@ npm install
 npm run dev
 ```
 
-## ✅ To-Do / Future Enhancements
+## To-Do / Future Enhancements
 - [ ] Bulk email scheduling  
 - [ ] Attachment support  
 - [ ] Rich text editor for email body  
 
 
-## 📜 License
+## License
 This project is licensed under the MIT License 
 
